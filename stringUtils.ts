@@ -9,3 +9,7 @@ export const countCharecters = (str: string): number => {
 export const capitalizeFirstLetter = (str: string): string => {
     return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
 };
+
+export const modCountCharecters = (str: string): number => {
+    return str.replace(/\s/g, '').length;
+}
