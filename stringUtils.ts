@@ -12,4 +12,4 @@ export const capitalizeFirstLetter = (str: string): string => {
 
 export const modCountCharecters = (str: string): number => {
     return str.replace(/\s/g, '').length;
-}
+};
